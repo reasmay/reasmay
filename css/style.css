@@ -1,0 +1,125 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        font-size: 2rem;
+        line-height: 150%;
+        font-family: 'Aref Ruqaa', serif;
+        background-color: #ABAFB4;
+    }
+    /*///////////////////////////////////Header////////////////////////////*/
+    
+    header {
+        padding: 4rem;
+        font-size: 2.5rem;
+        text-align: justify;
+        background-image: url('../img/mha.jpg');
+    }
+    
+    header img {
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .navig {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    a {
+        text-decoration: none;
+        text-shadow: black 2px 2px;
+        color: grey;
+    }
+    /*//////////////////////////////////Carrousel////////////////////////////*/
+    
+    .slide {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    video {
+        width: 100%;
+        margin: 0 auto;
+    }
+    /*///////////////////////////////////Main//////////////////////////////*/
+    
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    img {
+        width: 30rem;
+        height: 50rem;
+        margin-top: 5rem;
+    }
+    
+    .ecart {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    h1,
+    h2 {
+        text-align: center;
+        margin-top: 5rem;
+    }
+    /*/////////////////////////////////////Footer///////////////////////////////*/
+    
+    footer {
+        text-align: center;
+        padding: 2rem;
+        margin-top: 5rem;
+        background-image: url('../img/gto.jpg');
+        background-size: contain;
+    }
+    
+    small {
+        color: red;
+    }
+    
+    .pictogramme a img {
+        width: 10rem;
+        height: 10rem;
+        margin: 3rem;
+    }
+    
+    #naruto {
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        width: 22rem;
+        height: 22rem;
+        cursor: pointer;
+    }
+    /*///////////////////////////////format portable///////////////////////////*/
+    
+    @media screen and (max-width: 768px) {
+        iframe {
+            display: none;
+        }
+        #naruto {
+            right: 0;
+            bottom: 0;
+            position: fixed;
+            width: 10rem;
+            height: 10rem;
+            cursor: pointer;
+        }
+        header img {
+            display: none;
+        }
+    }
